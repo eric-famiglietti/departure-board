@@ -25,13 +25,13 @@ yarn
 
 ## Usage
 
-From the `./public` directory, run the PHP web server using
+From the `./public` directory, run the PHP web server using:
 
 ```
 php -S localhost:8000
 ```
 
-From the project root, run the React app using
+From the project root, run the React app using:
 
 ```
 yarn start
