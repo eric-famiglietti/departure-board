@@ -7,7 +7,7 @@ Built using [Create React App](https://github.com/facebook/create-react-app). Us
 **Files of note:**
 
 1. `./public/departures.php` - Returns departures data in CSV format. Wraps MBTA endpoint to prevent CORS errors.
-2. `./src/App.js` - React component for fetching data and managing individual departures boards.
+2. `./src/App.js` - React component for fetching departure data and managing individual departures boards.
 3. `./src/DeparturesBoard.js` - React component for displaying a departures board.
 
 ## Requirements
