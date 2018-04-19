@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import * as Papa from 'papaparse';
-import DepartureBoard from './DepartureBoard';
+import DeparturesBoard from './DeparturesBoard';
 
 const INTERVAL = 10 * 1000;
 const URL = 'http://localhost:8000/departures.php';
@@ -37,8 +37,8 @@ class App extends Component {
       let southStationData = this.state.data.filter(item => item.Origin === 'South Station');
       return (
         <div className="container mx-auto pt-8">
-          <DepartureBoard name="North Station" data={northStationData} />
-          <DepartureBoard name="South Station" data={southStationData} />
+          <DeparturesBoard name="North Station" data={northStationData} />
+          <DeparturesBoard name="South Station" data={southStationData} />
         </div>
       );
     }

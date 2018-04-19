@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import moment from 'moment'
 
-class DepartureBoard extends Component {
+class DeparturesBoard extends Component {
   render() {
     let dayOfWeek = moment().format('dddd');
     let currentDate = moment().format('MM-DD-YYYY');
@@ -51,4 +51,4 @@ class DepartureBoard extends Component {
   }
 }
 
-export default DepartureBoard;
+export default DeparturesBoard;
