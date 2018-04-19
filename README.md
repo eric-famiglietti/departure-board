@@ -1,6 +1,6 @@
-# MBTA Departure Board
+# MBTA Departures Board
 
-Displays the North Station and South Station departure boards.
+Displays the North Station and South Station departures boards.
 
 Built using [Create React App](https://github.com/facebook/create-react-app).
 
@@ -11,10 +11,22 @@ Built using [Create React App](https://github.com/facebook/create-react-app).
 
 ## Installation
 
-Install the required dependencies using `yarn`.
+Install the required dependencies using:
+
+```
+yarn
+```
 
 ## Usage
 
-From the `./public` directory, run the PHP web server using `php -S localhost:8000`.
+From the `./public` directory, run the PHP web server using
 
-From the project root, run the React app using `yarn start`.
+```
+php -S localhost:8000
+```
+
+From the project root, run the React app using
+
+```
+yarn start
+```
