@@ -2,7 +2,13 @@
 
 Displays the North Station and South Station departures boards.
 
-Built using [Create React App](https://github.com/facebook/create-react-app).
+Built using [Create React App](https://github.com/facebook/create-react-app). Uses [Papa Parse](https://www.papaparse.com/) for CSV parsing and [Moment.js](https://momentjs.com/) for date and time formatting.
+
+**Files of note:**
+
+1. `./public/departures.php` - Returns departures data in CSV format. Wraps MBTA endpoint to prevent CORS errors.
+2. `./src/App.js` - React component for fetching data and managing individual departures boards.
+3. `./src/DeparturesBoard.js` - React component for displaying a departures board.
 
 ## Requirements
 
