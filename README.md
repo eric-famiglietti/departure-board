@@ -1,4 +1,4 @@
-# MBTA Departures Board
+# MBTA Departures Boards
 
 Displays the North Station and South Station departures boards.
 

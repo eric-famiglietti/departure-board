@@ -1,5 +1,5 @@
 {
-  "name": "departure-board",
+  "name": "mbta-departures-boards",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
